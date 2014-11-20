@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogueXML>
+	<raisonSociale>raisonSociale</raisonSociale>
+	<dateDepot>2001-01-01</dateDepot>
+	<voitureXML>
+		<marque>marque</marque>
+		<modele>modele</modele>
+		<couleur>couleur</couleur>
+		<nbPortes>0</nbPortes>
+		<nbPlaces>0</nbPlaces>
+		<equipements>equipements</equipements>
+		<motorisation>motorisation</motorisation>
+		<emissionCO2>0.0</emissionCO2>
+		<imageURL>imageURL</imageURL>
+		<prix>0.0</prix>
+	</voitureXML>
+	<voitureXML>
+		<marque>marque</marque>
+		<modele>modele</modele>
+		<couleur>couleur</couleur>
+		<nbPortes>0</nbPortes>
+		<nbPlaces>0</nbPlaces>
+		<equipements>equipements</equipements>
+		<motorisation>motorisation</motorisation>
+		<emissionCO2>0.0</emissionCO2>
+		<imageURL>imageURL</imageURL>
+		<prix>0.0</prix>
+	</voitureXML>
+	<voitureXML>
+		<marque>JAVA XML</marque>
+		<modele>gggg</modele>
+		<couleur>couleur</couleur>
+		<nbPortes>0</nbPortes>
+		<nbPlaces>0</nbPlaces>
+		<equipements>equipements</equipements>
+		<motorisation>motorisation</motorisation>
+		<emissionCO2>0.0</emissionCO2>
+		<imageURL>imageURL</imageURL>
+		<prix>0.0</prix>
+	</voitureXML>
+	<voitureXML>
+		<marque>JAVA XML</marque>
+		<modele>bbbb</modele>
+		<couleur>couleur</couleur>
+		<nbPortes>0</nbPortes>
+		<nbPlaces>0</nbPlaces>
+		<equipements>equipements</equipements>
+		<motorisation>motorisation</motorisation>
+		<emissionCO2>0.0</emissionCO2>
+		<imageURL>imageURL</imageURL>
+		<prix>0.0</prix>
+	</voitureXML>
+</catalogueXML>

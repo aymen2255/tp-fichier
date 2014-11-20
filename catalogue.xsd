@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+
+
+
+
+
+	<xs:element name="catalogueXML">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="raisonSociale" type="xs:string" maxOccurs="1" minOccurs="1"/>
+	       		<xs:element name="dateDepot" type="xs:date" maxOccurs="1" minOccurs="1"/>
+				<xs:element ref="voitureXML" maxOccurs="unbounded" minOccurs="1"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="voitureXML">
+	  <xs:complexType>
+	    <xs:sequence>
+	      <xs:element name="marque" type="xs:string"/>
+	      <xs:element name="modele" type="xs:string"/>
+	      <xs:element name="couleur" type="xs:string"/>
+	      <xs:element name="nbPortes" type="xs:int"/>
+	      <xs:element name="nbPlaces" type="xs:int"/>
+	      <xs:element name="equipements" type="xs:string"/>
+	      <xs:element name="motorisation" type="xs:string"/>
+	      <xs:element name="emissionCO2" type="xs:float"/>
+	      <xs:element name="imageURL" type="xs:string"/>
+	      <xs:element name="prix" type="xs:double"/>
+	    </xs:sequence>
+	  </xs:complexType>
+	</xs:element>
+
+</xs:schema> 
